@@ -7,4 +7,31 @@
   &__container {
     @include flex-v-center;
   }
+
+  &__content {
+    max-width: 516px;
+  }
+
+  &__image {
+    transform: translateX(167px);
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: var(--light-color);
+
+    &-text {
+      display: block;
+      max-width: 90%;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 160%;
+      text-transform: initial;
+    }
+  }
 }
