@@ -1,0 +1,10 @@
+.hero {
+  padding-top: 250px;
+  padding-top: 160px;
+  min-height: 800px;
+  background-color: var(--dark-color);
+
+  &__container {
+    @include flex-v-center;
+  }
+}

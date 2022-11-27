@@ -1,0 +1,11 @@
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 30px 0;
+  width: 100%;
+
+  &__container {
+    @include flex-all-sb;
+  }
+}
