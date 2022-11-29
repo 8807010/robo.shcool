@@ -11,4 +11,8 @@
   text-align: center;
   color: var(--light-color);
   background-color: var(--accent-color);
+
+  &--dark {
+    background-color: var(--dark-color);
+  }
 }
