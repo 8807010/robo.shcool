@@ -12,7 +12,8 @@
   color: var(--light-color);
   background-color: var(--accent-color);
   transition: all 0.3s ease-in-out;
-
+  overflow: hidden;
+  position: relative;
 
   &--dark {
     background-color: var(--dark-color);
