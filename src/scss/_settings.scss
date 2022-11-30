@@ -112,7 +112,10 @@ a {
   position: relative;
 }
 
-
 .section-offset {
   padding: 120px 0;
+
+  @include mobile {
+    padding: 80px 0;
+  }
 }
