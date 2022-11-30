@@ -48,6 +48,11 @@
     font-size: 18px;
     line-height: 160%;
     color: var(--accent-color);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--hover-color);
+    }
   }
 
   &__nav {
@@ -76,15 +81,19 @@
     height: 40px;
 
     &--prev {
-      background-image: url("../img/prev.svg");
+      background-image: url("./../img/prev.svg");
     }
 
     &--next {
-      background-image: url("../img/next.svg");
+      background-image: url("./../img/next.svg");
     }
 
     &:not(:last-child) {
       margin-right: 10px;
     }
   }
+}
+
+.swiper-wrapper {
+  padding: 3px;
 }

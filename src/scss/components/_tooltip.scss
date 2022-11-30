@@ -15,14 +15,14 @@
     }
 
     &:focus {
-      + .tooltip__txt {
+      +.tooltip__txt {
         opacity: 1;
         visibility: visible;
       }
     }
 
     @include hover {
-      + .tooltip__txt {
+      +.tooltip__txt {
         opacity: 1;
         visibility: visible;
       }
@@ -41,6 +41,12 @@
     background: var(--light-color);
     opacity: 0;
     visibility: hidden;
+    margin: 10px !important;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+
+    @include mobile{
+      max-width: 160px;
+    }
+
   }
 }

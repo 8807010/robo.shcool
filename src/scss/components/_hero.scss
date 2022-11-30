@@ -16,6 +16,10 @@
     }
   }
 
+  &__link {
+    transition: all 0.3s ease-in-out;
+  }
+
   &__image {
     transform: translateX(167px);
 
