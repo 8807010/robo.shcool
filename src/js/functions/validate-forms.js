@@ -16,7 +16,7 @@ export const validateForms = (selector, rules, afterSend) => {
   }
 
   if (telSelector) {
-    const inputMask = new Inputmask('+375 (99) 999-99-99');
+    const inputMask = new Inputmask('+7 (999) 999-99-99');
     inputMask.mask(telSelector);
 
     for (let item of rules) {
@@ -25,7 +25,7 @@ export const validateForms = (selector, rules, afterSend) => {
           rule: 'function',
           validator: function () {
             const phone = telSelector.inputmask.unmaskedvalue();
-            return phone.length === 9;
+            return phone.length === 10;
           },
           errorMessage: item.telError
         });

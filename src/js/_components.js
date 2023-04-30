@@ -6,3 +6,4 @@ import './components/validation';
 import './components/tabs';
 import './components/custom-scroll';
 import './components/button-circle';
+import './components/countUp';
